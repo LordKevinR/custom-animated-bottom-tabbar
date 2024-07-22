@@ -1,12 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
-import { StatusBar } from 'expo-status-bar'
 
-export default function Page() {
+export default function Profile() {
   return (
     <View style={styles.container}>
-        <StatusBar style="dark" />
-      <Text>Home Screen</Text>
+      <Text>Profile Screen</Text>
     </View>
   )
 }
